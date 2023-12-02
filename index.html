@@ -16,19 +16,6 @@
 	        background-attachment: scroll;
 	        font-size: 16px;
 	}
-	@media screen and (max-device-width: 900px){
-           	body { 
-			font-family: Arial, sans-serif;
-		        border-radius: 144px;
-		        background-color: #5DB2BD;
-		        background-image:url("https://i.imgur.com/9Zwb0fC.jpg");
-		        background-repeat: no-repeat;
-		        background-position: center center;
-		        background-size: 1300px;
-		        background-attachment: scroll;
-		        font-size: 16px;
-		}
-	}
 	
             /*頂端欄*/
             header{
@@ -116,6 +103,39 @@
 				background-size:cover;
 				background-position: center;
             }
+	@media screen and (max-device-width: 900px;min-device-width: 600px){
+           	body { 
+			font-family: Arial, sans-serif;
+		        border-radius: 144px;
+		        background-color: #5DB2BD;
+		        background-image:url("https://i.imgur.com/9Zwb0fC.jpg");
+		        background-repeat: no-repeat;
+		        background-position: center center;
+		        background-size: 1350px;
+		        background-attachment: scroll;
+		        font-size: 16px;
+		}
+		header{
+	                display: block;
+	                margin : 10px auto ;
+	                border-radius: 8px;
+	                flex-shrink: 0;
+	                background-color: #fbfbfb;
+	                opacity: 0.9;
+	                width: cover;
+	                height: 250px;
+	            }
+		h2{
+	                display: block;
+	                border-radius: 8px;
+	                background: rgba(217, 217, 217, 0.50);
+	                height: 300px;
+	                flex-shrink: 0;
+	                position: relative;
+	                width: cover;
+	                border-radius: 8px;
+	            }
+	}
 
             .flip-container {
                 perspective: 231px;
